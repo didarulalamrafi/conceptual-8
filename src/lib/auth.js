@@ -11,6 +11,6 @@ export const auth = betterAuth({
     client,
   }),
   emailAndPassword: {
-    enable: true,
+    enabled: true,
   },
 });
