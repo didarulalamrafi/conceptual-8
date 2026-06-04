@@ -104,13 +104,6 @@ const Signup = () => {
       className="flex w-96 flex-col gap-4 rounded-2xl mx-auto mt-10 p-8 shadow-2xl"
       onSubmit={onSubmit}
     >
-      {/* Name  */}
-      <TextField isRequired name="name" type="text">
-        <Label>Name</Label>
-        <Input placeholder="Enter your name" />
-        <FieldError />
-      </TextField>
-
       {/* Email */}
       <TextField
         isRequired
