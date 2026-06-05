@@ -19,6 +19,7 @@ const Navbar = () => {
         Home
       </Link>
       <Link href="/models">Model</Link>
+      <Link href="/server-action">server Action</Link>
       <Link href={"/signup"}>Sign Up</Link>
       <Link href={"/signin"}>Sign In</Link>
       <div>{user?.name}</div>
